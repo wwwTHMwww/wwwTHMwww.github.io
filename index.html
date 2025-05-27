@@ -3,27 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>وبلاگ من</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 2rem;
-      background: #fdfdfd;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    article {
-      border-bottom: 1px solid #ccc;
-      margin-bottom: 1.5rem;
-      padding-bottom: 1rem;
-    }
-    h1, h2 {
-      color: #004466;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -31,13 +11,30 @@
     <p>به وبلاگ من خوش اومدی!</p>
   </header>
 
-  <article>
-    <h2>اولین پست من</h2>
-    <p>سلام! این اولین پست منه که با GitHub Pages ساختم.</p>
-  </article>
+  <main>
+    <section class="posts">
+      <h2>آخرین پست‌ها</h2>
+      <ul>
+        <li><a href="post1.html">اولین پست من</a> <span class="tag">آموزشی</span></li>
+        <!-- پست‌های بعدی رو همین‌جا اضافه کن -->
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>ارتباط با من</h2>
+      <p>
+        <strong>اینستاگرام:</strong>
+        <a href="https://instagram.com/amirmahdi.shahdoost" target="_blank">@amirmahdi.shahdoost</a>
+      </p>
+      <p>
+        <strong>ایمیل:</strong>
+        <a href="mailto:wwwamirmaedi@gmail.com">wwwamirmaedi@gmail.com</a>
+      </p>
+    </section>
+  </main>
 
   <footer>
-    <p>ساخته شده با عشق و گیت‌هاب</p>
+    <p>تمامی حقوق محفوظ است - 2025</p>
   </footer>
 </body>
 </html>
